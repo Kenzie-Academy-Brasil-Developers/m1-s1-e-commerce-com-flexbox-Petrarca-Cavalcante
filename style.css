@@ -47,6 +47,10 @@ header {
 
 }
 
+.main-logo{
+    padding: 6px 0;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -64,6 +68,8 @@ nav {
 }
 
 .button-nav {
+    height: 28px;
+    width: 130px;
     margin-top: 4px;
     padding: 4px 24px;
     border-radius: 4px;
@@ -72,8 +78,22 @@ nav {
 
 }
 
+button:hover{
+    background-color: #0582cabd;
+}
 
+.main-product:hover{
+    outline: 1px solid #0582cabd;
+    
+}
 
+.main-logo{
+    cursor: pointer;
+}
+
+.nav-items-ones{
+    cursor: pointer;
+}
 /*------------------------------------------
            ORGANIZAÇÃO DOS PRODUTOS
 -------------------------------------------*/
@@ -132,17 +152,17 @@ main {
 
 h3 {
     font-size: 13px;
-    padding: 20px 10px;
+    padding: 15px 10px;
 }
 
 .main-items-price {
-    padding: 0 10px;
+    padding: 0 15px 5px 15px;
     font-weight: 700;
 }
 
 .main-items-add-cart {
-    margin: 20px 60px;
-    width: 140px;
+    margin: 9px 0px 0px 16px;
+    width: 229px;
     height: 30px;
     padding: 5px;
     border-radius: 5px;
@@ -154,3 +174,6 @@ h3 {
 .main-item-description {
     margin-top: 40px;
 }
+
+
+
