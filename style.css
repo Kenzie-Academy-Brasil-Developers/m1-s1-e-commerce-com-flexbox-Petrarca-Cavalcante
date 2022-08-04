@@ -80,6 +80,7 @@ nav {
 
 button:hover{
     background-color: #0582cabd;
+    cursor: pointer;
 }
 
 .main-product:hover{
@@ -94,6 +95,9 @@ button:hover{
 .nav-items-ones{
     cursor: pointer;
 }
+
+
+
 /*------------------------------------------
            ORGANIZAÇÃO DOS PRODUTOS
 -------------------------------------------*/
